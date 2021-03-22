@@ -1,0 +1,28 @@
+com/utopia/inflater/config/Orientation.java
+ com.utopia.inflater.config.Orientation
+com/utopia/inflater/BuildConfig.java
+ com.utopia.inflater.BuildConfig
+com/utopia/inflater/utils/ScreenUtils.java
+ com.utopia.inflater.utils.ScreenUtils
+com/utopia/inflater/utils/DimensionUtils.java
+ com.utopia.inflater.utils.DimensionUtils
+com/utopia/inflater/AsyncLayoutInflater.java
+ com.utopia.inflater.AsyncLayoutInflater
+com/utopia/inflater/config/OrientationMode.java
+ com.utopia.inflater.config.OrientationMode
+com/utopia/inflater/InflateThread.java
+ com.utopia.inflater.InflateThread
+com/utopia/inflater/config/Unit.java
+ com.utopia.inflater.config.Unit
+com/utopia/inflater/InflateRequest.java
+ com.utopia.inflater.InflateRequest
+com/utopia/inflater/callback/OnInflateFinishedListener.java
+ com.utopia.inflater.callback.OnInflateFinishedListener
+com/utopia/inflater/utils/ResizeView.java
+ com.utopia.inflater.utils.ResizeView
+com/utopia/inflater/RealLayoutInflater.java
+ com.utopia.inflater.RealLayoutInflater
+com/utopia/inflater/config/LayoutInflaterConfig.java
+ com.utopia.inflater.config.LayoutInflaterConfig
+ com.utopia.inflater.config.LayoutInflaterConfig$1
+ com.utopia.inflater.config.LayoutInflaterConfig$Builder

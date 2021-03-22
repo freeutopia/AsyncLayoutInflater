@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="auto_async_layout_inflater" type="id"/>
+</resources>
