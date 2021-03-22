@@ -15,7 +15,7 @@ import androidx.annotation.UiThread;
 /**
  * LayoutInflater Decorator，使用线程和Handler完成layout异步加载回调
  */
-public final class AsyncLayoutInflater {
+    public final class AsyncLayoutInflater {
     private final LayoutInflater mInflater;
     final Handler mHandler;
     private InflateThread mInflateThread = null;

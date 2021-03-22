@@ -15,9 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
         AsyncLayoutInflater.from(this).inflate(R.layout.activity_main, this::setContentView);
-        //loadSpeedTest();
     }
 
     private void loadSpeedTest() {
