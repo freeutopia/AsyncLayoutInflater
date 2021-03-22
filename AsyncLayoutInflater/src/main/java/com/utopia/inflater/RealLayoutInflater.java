@@ -12,6 +12,9 @@ import org.xmlpull.v1.XmlPullParser;
 
 import androidx.annotation.Nullable;
 
+/**
+ * 真正的布局加载类
+ */
 class RealLayoutInflater extends LayoutInflater {
     private static final String[] sClassPrefixList = {
             "android.widget.",
