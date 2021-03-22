@@ -1,0 +1,3 @@
+include ':AsyncLayoutInflater'
+include ':app'
+rootProject.name = "AsyncLayoutInflater"

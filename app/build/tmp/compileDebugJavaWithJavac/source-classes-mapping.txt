@@ -1,8 +1,0 @@
-com/utopia/demo/BuildConfig.java
- com.utopia.demo.BuildConfig
-com/utopia/demo/CustomImageView.java
- com.utopia.demo.CustomImageView
-com/utopia/demo/MainActivity.java
- com.utopia.demo.MainActivity
-com/utopia/demo/MyApplication.java
- com.utopia.demo.MyApplication

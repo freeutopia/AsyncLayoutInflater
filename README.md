@@ -1,2 +1,0 @@
-# AsyncLayoutInflater
-Android异步布局加载框架。针对Android布局加载的两大瓶颈IO和反射进行优化。该框架将布局加载和解析放在子线程中，等到xml转化完成后再将View回调到主线程。

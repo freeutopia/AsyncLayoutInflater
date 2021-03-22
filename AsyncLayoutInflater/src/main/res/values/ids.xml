@@ -1,0 +1,3 @@
+<resources>
+    <item name="auto_async_layout_inflater" type="id" />
+</resources>
