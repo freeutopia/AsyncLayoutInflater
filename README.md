@@ -1,4 +1,4 @@
-## AsyncLayoutInflater
+## AsyncLayoutInflater（异步布局+屏幕适配）
 
 
 轻量级Android异步布局加载框架，针对Android布局加载的两大瓶颈IO和Reflect进行优化。该框架将布局加载和解析等耗时操作移至子线程中处理，子线程将xml转化成view后，再回调到主线程完成界面加载。同时支持完成屏幕适配（详细用法参考Demo工程）。
@@ -65,7 +65,8 @@ public class MyApplication extends Application {   
 
 ````java
 1、通过inflater把xml映射成View，在View构建过程中会生成我们需要关注的View像素信息（除matchParent和warpContent以外的内容），我们只需要按比例替换像素即可；
-2、相对于[头条适配方案](https://github.com/JessYanCoding/AndroidAutoSize)更加便捷快速；
+2、相对于[头条适配方案](https://github.com/JessYanCoding/AndroidAutoSize)更加便捷，本方案只关注布局；
+3、有个别界面不需要适配的，可以AsyncLayoutInflater无适配函数去加载布局；
 ````
 
 ## 开源协议
